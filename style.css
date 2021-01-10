@@ -47,6 +47,8 @@
 p{
     font-size: 30px;
     text-align: center;
+    padding-bottom: 40px;
+    margin: 10px;
 }
 
 h3{
@@ -97,8 +99,11 @@ hr{
 
 .copy{
     text-align: center;
+    padding-bottom: 10px;
 }
-
+.col-lg-6{
+    padding-bottom: 10px;
+}
 @media only screen and (max-width:800px){
 .profil{
     display: block;
@@ -108,5 +113,28 @@ hr{
     height: auto;
     background-color: gray;
     display: block;
+}
+.review {
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    outline: 0;
+    height: 32px;
+    width: 115px;
+}
+.review:hover{
+    background-color: transparent;
+    color: red;
+    box-shadow:0px 0px 7px 5px red;
+}
+.copy{
+    text-align: center;
+    padding-bottom: 10px;
+}
+p {
+    font-size: 21px;
+    text-align: center;
+    padding-bottom: 40px;
+    margin: 10px;
 }
 }
